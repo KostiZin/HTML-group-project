@@ -1,0 +1,165 @@
+/* Subscribe Section */
+.subscribe {
+  padding-top: 62px;
+  padding-bottom: 63px;
+  text-align: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+
+  /* Для Chrome и Safari */
+  background-image: -webkit-image-set(
+      url('/img/mobile/subscribe/subscribe@3x.avif') 3x,
+      url('/img/mobile/subscribe/subscribe@2x.avif') 2x,
+      url('/img/mobile/subscribe/subscribe@1x.avif') 1x,
+      url('/img/mobile/subscribe/subscribe@3x.webp') 3x,
+      url('/img/mobile/subscribe/subscribe@2x.webp') 2x,
+      url('/img/mobile/subscribe/subscribe@1x.webp') 1x,
+      url('/img/mobile/subcribe3x.jpg') 3x,
+      url('/img/mobile/subcribe2x.jpg') 2x,
+      url('/img/mobile/subcribe1x.jpg') 1x
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+  /* Для Firefox */
+  background-image: -webkit-image-set(
+      url('/img/mobile/subscribe/subscribe@3x.avif') type('image/avif') 3x,
+      url('/img/mobile/subscribe/subscribe@2x.avif') type('image/avif') 2x,
+      url('/img/mobile/subscribe/subscribe@1x.avif') type('image/avif') 1x,
+      url('/img/mobile/subscribe/subscribe@3x.webp') type('image/webp') 3x,
+      url('/img/mobile/subscribe/subscribe@2x.webp') type('image/webp') 2x,
+      url('/img/mobile/subscribe/subscribe@1x.webp') type('image/webp') 1x,
+      url('/img/mobile/subcribe3x.jpg') 3x,
+      url('/img/mobile/subcribe2x.jpg') 2x,
+      url('/img/mobile/subcribe1x.jpg') 1x
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.subscribe-title {
+  margin-bottom: 24px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.subscribe-text {
+  margin-bottom: 24px;
+
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+}
+
+.subscribe-btn.btn {
+  background-color: #fd9222;
+  border: none;
+  min-width: 128px;
+}
+
+/* ======= Media Mobile ========= */
+
+@media screen and (min-width: 365px) {
+  .subscribe {
+    /* Для Chrome и Safari */
+    background-image: -webkit-image-set(
+        url('/img/tablet/subscribe/subscribe@3x.avif') 3x,
+        url('/img/tablet/subscribe/subscribe@2x.avif') 2x,
+        url('/img/tablet/subscribe/subscribe@1x.avif') 1x,
+        url('/img/tablet/subscribe/subscribe@3x.webp') 3x,
+        url('/img/tablet/subscribe/subscribe@2x.webp') 2x,
+        url('/img/tablet/subscribe/subscribe@1x.webp') 1x,
+        url('/img/tablet/subcribe3x.jpg') 3x,
+        url('/img/tablet/subcribe2x.jpg') 2x,
+        url('/img/tablet/subcribe1x.jpg') 1x
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+    /* Для Firefox */
+    background-image: -webkit-image-set(
+        url('/img/tablet/subscribe/subscribe@3x.avif') type('image/avif') 3x,
+        url('/img/tablet/subscribe/subscribe@2x.avif') type('image/avif') 2x,
+        url('/img/tablet/subscribe/subscribe@1x.avif') type('image/avif') 1x,
+        url('/img/tablet/subscribe/subscribe@3x.webp') type('image/webp') 3x,
+        url('/img/tablet/subscribe/subscribe@2x.webp') type('image/webp') 2x,
+        url('/img/tablet/subscribe/subscribe@1x.webp') type('image/webp') 1x,
+        url('/img/tablet/subcribe3x.jpg') 3x,
+        url('/img/tablet/subcribe2x.jpg') 2x,
+        url('/img/tablet/subcribe1x.jpg') 1x
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+}
+/*========== MEDIA TABLET ============ */
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    padding-top: 72px;
+    padding-bottom: 72px;
+
+    /* Для Chrome и Safari */
+    background-image: -webkit-image-set(
+        url('/img/desktop/subscribe/subscribe@3x.avif') 3x,
+        url('/img/desktop/subscribe/subscribe@2x.avif') 2x,
+        url('/img/desktop/subscribe/subscribe@1x.avif') 1x,
+        url('/img/desktop/subscribe/subscribe@3x.webp') 3x,
+        url('/img/desktop/subscribe/subscribe@2x.webp') 2x,
+        url('/img/desktop/subscribe/subscribe@1x.webp') 1x,
+        url('/img/desktop/subcribe3x.jpg') 3x,
+        url('/img/desktop/subcribe2x.jpg') 2x,
+        url('/img/desktop/subcribe1x.jpg') 1x
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+    /* Для Firefox */
+    background-image: -webkit-image-set(
+        url('/img/desktop/subscribe/subscribe@3x.avif') type('image/avif') 3x,
+        url('/img/desktop/subscribe/subscribe@2x.avif') type('image/avif') 2x,
+        url('/img/desktop/subscribe/subscribe@1x.avif') type('image/avif') 1x,
+        url('/img/desktop/subscribe/subscribe@3x.webp') type('image/webp') 3x,
+        url('/img/desktop/subscribe/subscribe@2x.webp') type('image/webp') 2x,
+        url('/img/desktop/subscribe/subscribe@1x.webp') type('image/webp') 1x,
+        url('/img/desktop/subcribe3x.jpg') 3x,
+        url('/img/desktop/subcribe2x.jpg') 2x,
+        url('/img/desktop/subcribe1x.jpg') 1x
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+
+  .container.container-subscribe {
+    max-width: 467px;
+  }
+  .subscribe-title {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
+  .subscribe-btn.btn {
+    min-width: 172px;
+    padding: 14px 40px;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+  }
+}
+
+/* =========== Desktop ================= */
+
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    padding-top: 72px;
+    padding-bottom: 72px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+}
